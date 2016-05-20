@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7F47DA51CEF008D00E98732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F47DA41CEF008D00E98732 /* AppDelegate.m */; };
+		E7F47DA81CEF008D00E98732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F47DA71CEF008D00E98732 /* main.m */; };
+		E7F47DAA1CEF008D00E98732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F47DA91CEF008D00E98732 /* Assets.xcassets */; };
+		E7F47DAD1CEF008D00E98732 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F47DAB1CEF008D00E98732 /* MainMenu.xib */; };
+		E7F47DB81CEF008D00E98732 /* CI_FB_XCTOOL_DEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F47DB71CEF008D00E98732 /* CI_FB_XCTOOL_DEMOTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7F47DB41CEF008D00E98732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F47D981CEF008D00E98732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F47D9F1CEF008D00E98732;
+			remoteInfo = "CI-FB-XCTOOL-DEMO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7F47DA01CEF008D00E98732 /* CI-FB-XCTOOL-DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI-FB-XCTOOL-DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F47DA31CEF008D00E98732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7F47DA41CEF008D00E98732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7F47DA71CEF008D00E98732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7F47DA91CEF008D00E98732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7F47DAC1CEF008D00E98732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E7F47DAE1CEF008D00E98732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F47DB31CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CI-FB-XCTOOL-DEMOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F47DB71CEF008D00E98732 /* CI_FB_XCTOOL_DEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CI_FB_XCTOOL_DEMOTests.m; sourceTree = "<group>"; };
+		E7F47DB91CEF008D00E98732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F47D9D1CEF008D00E98732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F47DB01CEF008D00E98732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F47D971CEF008D00E98732 = {
+			isa = PBXGroup;
+			children = (
+				E7F47DA21CEF008D00E98732 /* CI-FB-XCTOOL-DEMO */,
+				E7F47DB61CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests */,
+				E7F47DA11CEF008D00E98732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F47DA11CEF008D00E98732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F47DA01CEF008D00E98732 /* CI-FB-XCTOOL-DEMO.app */,
+				E7F47DB31CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F47DA21CEF008D00E98732 /* CI-FB-XCTOOL-DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				E7F47DA31CEF008D00E98732 /* AppDelegate.h */,
+				E7F47DA41CEF008D00E98732 /* AppDelegate.m */,
+				E7F47DA91CEF008D00E98732 /* Assets.xcassets */,
+				E7F47DAB1CEF008D00E98732 /* MainMenu.xib */,
+				E7F47DAE1CEF008D00E98732 /* Info.plist */,
+				E7F47DA61CEF008D00E98732 /* Supporting Files */,
+			);
+			path = "CI-FB-XCTOOL-DEMO";
+			sourceTree = "<group>";
+		};
+		E7F47DA61CEF008D00E98732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F47DA71CEF008D00E98732 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7F47DB61CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7F47DB71CEF008D00E98732 /* CI_FB_XCTOOL_DEMOTests.m */,
+				E7F47DB91CEF008D00E98732 /* Info.plist */,
+			);
+			path = "CI-FB-XCTOOL-DEMOTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F47D9F1CEF008D00E98732 /* CI-FB-XCTOOL-DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F47DBC1CEF008D00E98732 /* Build configuration list for PBXNativeTarget "CI-FB-XCTOOL-DEMO" */;
+			buildPhases = (
+				E7F47D9C1CEF008D00E98732 /* Sources */,
+				E7F47D9D1CEF008D00E98732 /* Frameworks */,
+				E7F47D9E1CEF008D00E98732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CI-FB-XCTOOL-DEMO";
+			productName = "CI-FB-XCTOOL-DEMO";
+			productReference = E7F47DA01CEF008D00E98732 /* CI-FB-XCTOOL-DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7F47DB21CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F47DBF1CEF008D00E98732 /* Build configuration list for PBXNativeTarget "CI-FB-XCTOOL-DEMOTests" */;
+			buildPhases = (
+				E7F47DAF1CEF008D00E98732 /* Sources */,
+				E7F47DB01CEF008D00E98732 /* Frameworks */,
+				E7F47DB11CEF008D00E98732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F47DB51CEF008D00E98732 /* PBXTargetDependency */,
+			);
+			name = "CI-FB-XCTOOL-DEMOTests";
+			productName = "CI-FB-XCTOOL-DEMOTests";
+			productReference = E7F47DB31CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F47D981CEF008D00E98732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miralem Cebic";
+				TargetAttributes = {
+					E7F47D9F1CEF008D00E98732 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E7F47DB21CEF008D00E98732 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E7F47D9F1CEF008D00E98732;
+					};
+				};
+			};
+			buildConfigurationList = E7F47D9B1CEF008D00E98732 /* Build configuration list for PBXProject "CI-FB-XCTOOL-DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F47D971CEF008D00E98732;
+			productRefGroup = E7F47DA11CEF008D00E98732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F47D9F1CEF008D00E98732 /* CI-FB-XCTOOL-DEMO */,
+				E7F47DB21CEF008D00E98732 /* CI-FB-XCTOOL-DEMOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F47D9E1CEF008D00E98732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F47DAA1CEF008D00E98732 /* Assets.xcassets in Resources */,
+				E7F47DAD1CEF008D00E98732 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F47DB11CEF008D00E98732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F47D9C1CEF008D00E98732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F47DA81CEF008D00E98732 /* main.m in Sources */,
+				E7F47DA51CEF008D00E98732 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F47DAF1CEF008D00E98732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F47DB81CEF008D00E98732 /* CI_FB_XCTOOL_DEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7F47DB51CEF008D00E98732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F47D9F1CEF008D00E98732 /* CI-FB-XCTOOL-DEMO */;
+			targetProxy = E7F47DB41CEF008D00E98732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7F47DAB1CEF008D00E98732 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F47DAC1CEF008D00E98732 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7F47DBA1CEF008D00E98732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E7F47DBB1CEF008D00E98732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7F47DBD1CEF008D00E98732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CI-FB-XCTOOL-DEMO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.miralem-cebic.CI-FB-XCTOOL-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7F47DBE1CEF008D00E98732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CI-FB-XCTOOL-DEMO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.miralem-cebic.CI-FB-XCTOOL-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7F47DC01CEF008D00E98732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CI-FB-XCTOOL-DEMOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.miralem-cebic.CI-FB-XCTOOL-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI-FB-XCTOOL-DEMO.app/Contents/MacOS/CI-FB-XCTOOL-DEMO";
+			};
+			name = Debug;
+		};
+		E7F47DC11CEF008D00E98732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CI-FB-XCTOOL-DEMOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.miralem-cebic.CI-FB-XCTOOL-DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI-FB-XCTOOL-DEMO.app/Contents/MacOS/CI-FB-XCTOOL-DEMO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F47D9B1CEF008D00E98732 /* Build configuration list for PBXProject "CI-FB-XCTOOL-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F47DBA1CEF008D00E98732 /* Debug */,
+				E7F47DBB1CEF008D00E98732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F47DBC1CEF008D00E98732 /* Build configuration list for PBXNativeTarget "CI-FB-XCTOOL-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F47DBD1CEF008D00E98732 /* Debug */,
+				E7F47DBE1CEF008D00E98732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7F47DBF1CEF008D00E98732 /* Build configuration list for PBXNativeTarget "CI-FB-XCTOOL-DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F47DC01CEF008D00E98732 /* Debug */,
+				E7F47DC11CEF008D00E98732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F47D981CEF008D00E98732 /* Project object */;
+}
