@@ -1,0 +1,13 @@
+platform :osx, '10.11'
+inhibit_all_warnings!
+
+target 'CI-FB-XCTOOL-DEMO' do
+  pod 'ObjectiveSugar', '~> 1.1'
+  pod 'AFNetworking', '~> 3.1'
+
+  target "CI-FB-XCTOOL-DEMOTests" do
+    inherit! :search_paths
+    pod 'OCMockito', '~> 3.0'
+    pod 'OCHamcrest', '~> 5.2'
+  end
+end
