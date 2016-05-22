@@ -1,7 +1,0 @@
-[
-  "-workspace", "CI-FB-XCTOOL-DEMO.xcworkspace",
-  "-scheme", "CI-FB-XCTOOL-DEMO",
-  "-configuration", "Debug",
-  "-sdk", "macosx10.11",
-  "-arch", "x86_64"
-]
