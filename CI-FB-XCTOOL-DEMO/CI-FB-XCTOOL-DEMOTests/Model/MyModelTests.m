@@ -2,11 +2,11 @@
 //  MyModelTests.m
 //  CI-FB-XCTOOL-DEMO
 //
-//  Created by Miralem Cebic on 22/05/16.
 //  Copyright © 2016 Miralem Cebic. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "MyModel.h"
 
 @interface MyModelTests : XCTestCase
 
@@ -14,26 +14,42 @@
 
 @implementation MyModelTests
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void)tearDown
+{
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+// [MyModel someFunction]
+- (void)testSomeFunction
+{
+    // given
+    MyModel *sut = [MyModel new];
+
+    // when
+    BOOL expected = YES;
+    BOOL result = [sut someFunction];
+
+    // then
+    XCTAssertEqual(expected, result);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+// [MyModel aFunctionCallingAPrivateFunction]
+- (void)testAFunctionCallingAPrivateFunction
+{
+    // given
+    MyModel *sut = [MyModel new];
+
+    // when
+    BOOL expected = NO;
+    BOOL result = [sut aFunctionCallingAPrivateFunction];
+
+    // then
+    XCTAssertEqual(expected, result);
 }
 
 @end

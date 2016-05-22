@@ -22,7 +22,7 @@
     return NO;
 }
 
-#pragma mark: private methods
+#pragma mark: public methods
 
 - (BOOL)someFunction
 {
